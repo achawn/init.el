@@ -123,14 +123,6 @@
 (add-hook 'dired-mode-hook 'dired-hide-details-mode)
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 
-;; IComplete
-;;(fido-mode -1)
-;;(setq icomplete-prospects-height 1)
-;;(setq icomplete-with-completion-tables t)
-;;(setq icomplete-vertical-mode t)
-;;(setq icomplete-show-matches-on-no-input t)
-;;(icomplete-mode 1)
-
 ;; Ido
 ;;(setq-default ido-enable-flex-matching t)
 ;;(setq-default ido-everywhere t)
