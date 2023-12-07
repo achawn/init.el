@@ -123,12 +123,6 @@
 (add-hook 'dired-mode-hook 'dired-hide-details-mode)
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 
-;; Smex
-;;(require 'smex)
-;;(smex-initialize)
-;;(global-set-key (kbd "M-x") 'smex)
-;;(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-
 ;; Vertico
 (require 'vertico)
 (vertico-mode)
