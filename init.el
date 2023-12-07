@@ -110,7 +110,7 @@
 (flycheck-add-mode 'javascript-eslint 'vue-html-mode)
 
 ;; Javascript
-(setq js-indent-level 2)
+(setq-default js-indent-level 2)
 
 ;; Vue
 (require 'vue-mode)
