@@ -123,11 +123,6 @@
 (add-hook 'dired-mode-hook 'dired-hide-details-mode)
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 
-;; Ido
-;;(setq-default ido-enable-flex-matching t)
-;;(setq-default ido-everywhere t)
-;;(ido-mode 1)
-
 ;; Smex
 ;;(require 'smex)
 ;;(smex-initialize)
