@@ -14,14 +14,6 @@
 (unless package-archive-contents
  (package-refresh-contents))
 
-;; Evil
-(setq-default evil-want-keybinding nil)
-(setq-default evil-want-C-u-scroll 1)
-(require 'evil)
-(require 'evil-collection)
-(evil-mode 1)
-(evil-collection-init)
-
 ;; Olivetti
 (require 'olivetti)
 
