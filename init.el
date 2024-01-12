@@ -109,7 +109,7 @@
 (setq mmm-submode-decoration-level 0)
 
 ;; Dired
-(setq dired-dwim-target t)
+(setq-default dired-dwim-target t)
 (setq delete-by-moving-to-trash t)
 (add-hook 'dired-mode-hook 'dired-hide-details-mode)
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
