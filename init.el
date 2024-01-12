@@ -115,9 +115,10 @@
 (add-hook 'dired-mode-hook 'dired-hide-details-mode)
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 
-;; Vertico
-(require 'vertico)
-(vertico-mode)
+;; IComplete
+(setq-default icomplete-in-buffer t)
+(icomplete-mode 1)
+(icomplete-vertical-mode 1)
 
 ;; Recentf
 (recentf-mode 1)
