@@ -142,19 +142,6 @@
 ;; All The Icons
 (when (display-graphic-p)
   (require 'all-the-icons))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(evil-motion-state-modes nil)
- '(package-selected-packages
-   '(orderless evil-collection evil olivetti magit marginalia embark god-mode rg yasnippet which-key vue-mode vertico use-package typescript-mode tree-sitter-langs sweet-theme smex ob-typescript modus-themes meow lsp-ui general flycheck eglot ef-themes doom-themes dap-mode counsel company all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-gnus all-the-icons-dired all-the-icons-completion)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
 (provide 'init)
 ;;; init.el ends here
